@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tukang CoretZ Studio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hero-bg {
+            background:
+                linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .9)),
+                url('https://images.unsplash.com/photo-1511818966892-d7d671e672a2');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hover-up {
+            transition: all .3s ease;
+        }
+
+        .hover-up:hover {
+            transform: translateY(-8px);
+        }
+        .logo1{
+            width: 200px;
+            height: 190px;
+        }
+    </style>
+</head>
+<body class=" text-white">
+
+    <!-- NAVBAR -->
+    <nav class="fixed w-full z-50 bg-black/70 backdrop-blur border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="font-bold text-lg">Tukang CoretZ</h1>
+
+            <div class="hidden md:flex gap-8 text-sm">
+                <a href="#home" class="hover:text-gray-400">Home</a>
+                <a href="#about" class="hover:text-gray-400">Tentang</a>
+                <a href="#services" class="hover:text-gray-400">Layanan</a>
+                <a href="#portfolio" class="hover:text-gray-400">Portfolio</a>
+                <a href="#contact" class="hover:text-gray-400">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero-bg min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-2xl md:text-4xl font-bold mb-2">
+                Tukang <span class="text-gray-400">CoretZ</span> Studio
+            </h2>
+
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight max-w-3xl">
+                Wujudkan Bangunan Impian Anda
+            </h1>
+
+            <p class="text-gray-300 max-w-2xl mb-8">
+                Solusi profesional untuk desain arsitektur, visualisasi 3D,
+                hingga pembangunan dengan kualitas tinggi.
+            </p>
+
+            <div class="flex gap-4">
+                <a href="#contact"
+                    class="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-gray-300 transition">
+                    Konsultasi Gratis
+                </a>
+
+                <a href="#portfolio"
+                    class="border border-white px-8 py-4 rounded-lg hover:bg-white hover:text-black transition">
+                    Portfolio
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-24 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+            <img src="logo.png" class="w-72 mx-auto">
+
+            <div>
+                <h2 class="text-4xl font-bold mb-6">Tentang Kami</h2>
+
+                <p class="text-gray-400 mb-4">
+                    Tukang CoretZ Studio adalah jasa desain dan pembangunan
+                    yang berfokus pada kualitas, estetika, dan ketepatan.
+                </p>
+
+                <p class="text-gray-400">
+                    Kami membantu dari konsep hingga pembangunan secara profesional.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="py-24 bg-white text-black text-center">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6">Layanan Kami</h2>
+                <p class="text-gray-400">Solusi lengkap desain & konstruksi</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-zinc-900 p-8 rounded-xl border border-zinc-800 hover-up">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Desain Arsitektur</h3>
+                    <p class="text-gray-400">Desain modern & fungsional.</p>
+                </div>
+
+                <div class="bg-zinc-900 p-8 rounded-xl border border-zinc-800 hover-up">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Visualisasi 3D</h3>
+                    <p class="text-gray-400">Render realistis sebelum dibangun.</p>
+                </div>
+
+                <div class="bg-zinc-900 p-8 rounded-xl border border-zinc-800 hover-up">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Pembangunan</h3>
+                    <p class="text-gray-400">Konstruksi profesional & terstruktur.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-24 bg-zinc-950 text-center">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+
+            <div>
+                <h3 class="text-5xl font-bold">100+</h3>
+                <p class="text-gray-400">Project</p>
+            </div>
+
+            <div>
+                <h3 class="text-5xl font-bold">5+</h3>
+                <p class="text-gray-400">Tahun</p>
+            </div>
+
+            <div>
+                <h3 class="text-5xl font-bold">24/7</h3>
+                <p class="text-gray-400">Support</p>
+            </div>
+
+            <div>
+                <h3 class="text-5xl font-bold">100%</h3>
+                <p class="text-gray-400">Profesional</p>
+            </div>
+
+        </div>
+    </section>
+
+<!-- PORTO -->
+<section id="portfolio" class="h-[400vh] bg-gray-100 text-black">
+
+    <div class="text-center mb-6">
+    <h2 class="text-4xl font-bold px-20 pt-20">Portfolio  </h2>
+    </div>
+
+    <div class="sticky top-0 h-screen flex items-center overflow-hidden">
+
+        <div id="track" class="flex gap-10 px-20 will-change-transform">
+
+            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2"
+                class="card w-[500px] h-[320px] object-cover rounded-xl flex-shrink-0">
+
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                class="card w-[500px] h-[320px] object-cover rounded-xl flex-shrink-0">
+
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+                class="card w-[500px] h-[320px] object-cover rounded-xl flex-shrink-0">
+
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3"
+                class="card w-[500px] h-[320px] object-cover rounded-xl flex-shrink-0">
+
+            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde"
+                class="card w-[500px] h-[320px] object-cover rounded-xl flex-shrink-0">
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- CTA -->
+   <section id="contact" class="py-28 bg-black text-white text-center">
+
+    <div class="max-w-3xl mx-auto px-6 flex flex-col items-center">
+
+        <!-- LOGO -->
+     <img src="logo1.PNG"
+     class="logo1">
+        <!-- TITLE -->
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Mulai Project Anda
+        </h2>
+
+        <!-- DESC -->
+        <p class="text-gray-600 max-w-xl mb-10 leading-relaxed">
+            Konsultasi gratis sekarang dan wujudkan desain impian Anda
+            bersama tim profesional kami.
+        </p>
+
+        <!-- BUTTON -->
+        <a href="https://wa.me/6281234567890"
+            class="bg-green-500 text-white px-10 py-4 rounded-lg font-semibold
+            hover:scale-105 transition-all duration-300 shadow-lg">
+            Hubungi WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="bg-black border-t border-zinc-800 py-12">
+
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-10">
+        <div class="max-w-sm">
+            <h2 class="text-xl font-bold mb-4">
+                Tukang <span class="text-gray-400">CoretZ</span>
+            </h2>
+
+            <p class="text-gray-500 text-sm">
+                Studio desain & konstruksi profesional yang membantu
+                mewujudkan bangunan impian Anda dengan kualitas terbaik.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+
+            <div>
+                <h3 class="font-semibold mb-3">Navigasi</h3>
+                <ul class="space-y-2 text-gray-500">
+                    <li><a href="#home" class="hover:text-white">Home</a></li>
+                    <li><a href="#about" class="hover:text-white">Tentang</a></li>
+                    <li><a href="#services" class="hover:text-white">Layanan</a></li>
+                    <li><a href="#portfolio" class="hover:text-white">Portfolio</a></li>
+                </ul>
+            </div>
+
+            <!-- LAYANAN -->
+            <div>
+                <h3 class="font-semibold mb-3">Layanan</h3>
+                <ul class="space-y-2 text-gray-500">
+                    <li>Desain</li>
+                    <li>3D</li>
+                    <li>Konstruksi</li>
+                    <li>Renovasi</li>
+                </ul>
+            </div>
+
+            <!-- ALAMAT -->
+            <div>
+                <h3 class="font-semibold mb-3">Alamat</h3>
+                <ul class="space-y-2 text-gray-500">
+                    <li>Trenggalek</li>
+                    <li>0812-3456-7890</li>
+                    <li>email@coretzstudio.com</li>
+                </ul>
+            </div>
+
+          <div>
+    <h3 class="font-semibold mb-3">Sosial</h3>
+
+    <div class="flex flex-col gap-2 text-gray-400">
+
+        <a href="https://instagram.com/username" target="_blank"
+            class="hover:text-pink-500 transition">
+            Instagram
+        </a>
+
+        <a href="https://tiktok.com/@username" target="_blank"
+            class="hover:text-cyan-400 transition">
+            TikTok
+        </a>
+
+        <a href="https://wa.me/6281234567890" target="_blank"
+            class="hover:text-green-500 transition">
+            WhatsApp
+        </a>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <div class="border-t border-zinc-800 mt-10 pt-6 text-center text-gray-500 text-sm">
+        © 2025 Tukang CoretZ Studio
+    </div>
+
+</footer>
+    <a href="https://wa.me/6282245997797"
+        class="fixed bottom-6 right-6 bg-green-500 px-5 py-3 rounded-full text-white shadow-lg">
+        Konsultasi
+    </a>
+<script>
+
+// ============================
+// AUTO ADD ANIMATION CLASS
+// ============================
+const sections = document.querySelectorAll('section');
+sections.forEach(sec => {
+    sec.style.opacity = "0";
+    sec.style.transform = "translateY(50px)";
+    sec.style.transition = "all 0.8s cubic-bezier(.4,0,.2,1)";
+});
+
+
+// ============================
+// SCROLL REVEAL
+// ============================
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+        }
+    });
+}, { threshold: 0.2 });
+
+sections.forEach(sec => observer.observe(sec));
+
+
+// ============================
+// HERO ANIMATION (AUTO)
+// ============================
+window.addEventListener("load", () => {
+    const hero = document.querySelector("#home");
+    const items = hero.querySelectorAll("h1, h2, p, a");
+
+    items.forEach((el, i) => {
+        el.style.opacity = "0";
+        el.style.transform = "translateY(30px)";
+        el.style.transition = "all .8s ease";
+
+        setTimeout(() => {
+            el.style.opacity = "1";
+            el.style.transform = "translateY(0)";
+        }, 200 * i);
+    });
+});
+
+
+// ============================
+// NAVBAR SCROLL EFFECT
+// ============================
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        nav.style.background = "rgba(0,0,0,0.95)";
+        nav.style.boxShadow = "0 10px 30px rgba(0,0,0,0.5)";
+    } else {
+        nav.style.background = "rgba(0,0,0,0.7)";
+        nav.style.boxShadow = "none";
+    }
+});
+
+
+// ============================
+// COUNTER ANIMATION
+// ============================
+const counters = document.querySelectorAll('h3.text-5xl');
+
+counters.forEach(counter => {
+    let started = false;
+
+    const run = () => {
+        if (started) return;
+        started = true;
+
+        let target = counter.innerText.replace(/\D/g,'');
+        let count = 0;
+
+        const update = () => {
+            count += target / 60;
+            if (count < target) {
+                counter.innerText = Math.floor(count) + "+";
+                requestAnimationFrame(update);
+            } else {
+                counter.innerText = target + "+";
+            }
+        };
+
+        update();
+    };
+
+    const obs = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) run();
+    });
+
+    obs.observe(counter);
+});
+
+
+// ============================
+// BUTTON CLICK EFFECT
+// ============================
+document.querySelectorAll("a").forEach(btn => {
+    btn.addEventListener("mousedown", () => {
+        btn.style.transform = "scale(0.95)";
+    });
+
+    btn.addEventListener("mouseup", () => {
+        btn.style.transform = "scale(1)";
+    });
+});
+
+
+// ============================
+// FLOATING WA PULSE (JS ONLY)
+// ============================
+const wa = document.querySelector('a[href*="wa.me"]');
+
+setInterval(() => {
+    wa.style.boxShadow = "0 0 0 0 rgba(34,197,94,.7)";
+    wa.style.transition = "0s";
+
+    setTimeout(() => {
+        wa.style.boxShadow = "0 0 0 20px rgba(34,197,94,0)";
+        wa.style.transition = "all 1s ease";
+    }, 100);
+
+}, 2000);
+
+
+// ============================
+// PORTFOLIO HOVER ENHANCE
+// ============================
+document.querySelectorAll("#portfolio img").forEach(img => {
+    img.addEventListener("mouseenter", () => {
+        img.style.transform = "scale(1.1)";
+        img.style.transition = "all .5s ease";
+    });
+
+    img.addEventListener("mouseleave", () => {
+        img.style.transform = "scale(1)";
+    });
+});
+
+const section = document.querySelector("#portfolio");
+const track = document.querySelector("#track");
+
+let current = 0;   // posisi sekarang
+let target = 0;    // target scroll
+
+// ambil scroll
+window.addEventListener("scroll", () => {
+    const sectionTop = section.offsetTop;
+    target = window.scrollY - sectionTop;
+});
+
+// smooth animation (LERP)
+function animate() {
+
+    // rumus smooth (semakin kecil = semakin halus)
+    current += (target - current) * 0.08;
+
+    track.style.transform = `translateX(-${current}px)`;
+
+    requestAnimationFrame(animate);
+}
+
+animate();
+
+</script>
+
+</body>
+</html>
